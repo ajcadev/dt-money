@@ -18,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: ${props => props.theme['gray-800']};
   color: ${props => props.theme['gray-100']};
+  font: 400 1rem 'Roboto', sans-serif ;
 }
 
 img, picture, video, canvas, svg {
