@@ -4,7 +4,7 @@ export const SummaryContainer = styled.section`
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 24px;
-  margin-top: -2.5rem;
+  margin-top: -64px;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
