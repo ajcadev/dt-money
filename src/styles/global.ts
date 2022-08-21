@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
 *, *::before, *::after {
@@ -16,8 +16,8 @@ html, body, #root {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: ${props => props.theme['gray-800']};
-  color: ${props => props.theme['gray-100']};
+  background-color: ${(props) => props.theme['gray-800']};
+  color: ${(props) => props.theme['gray-100']};
   font: 400 1rem 'Roboto', sans-serif ;
 }
 
@@ -40,6 +40,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 :focus {
   outline: 0;
-  box-shadow: 0 0 0 2px ${props => props.theme['green-500']}
+  box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']}
 }
 `
